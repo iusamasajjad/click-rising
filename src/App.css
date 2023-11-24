@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Satoshi', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ============== common-classes ================== */
+.cursor-pointer{
+  cursor: pointer;
+}
+.bg-light-purple{
+background: #EEEBFD;
+}
+.bg-blue{
+  background: #5235E8;
+}
+.bg-dark-blue{
+  background: #231A51;
+}
+.text-blue{
+  color: #5235E8;
+}
+.text-gray{
+  color: #707A8D;
+}
+.text-dark-black{
+  color: #0E0637;
+}
+.text-sm{
+  font-size: 10px;
+}
+.text-xs{
+  font-size: 18px;
+}
+.text-md{
+  font-size: 22px;
+}
+.text-lg{
+  font-size: 40px;
+}
+.text-xl{
+  font-size: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font-bold{
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box-shadow{
+  box-shadow: 0px 12px 80px 0px rgba(82, 53, 232, 0.10);
+}
+.border-radius{
+  border-radius: 36px;
+  border: 2px solid #EFEDFD;
+}
+.border-radius-sm{
+  border-radius: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.mh-200{
+  min-height: 230px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* =============== background-images =================== */
+footer{
+  background: url('./components/Footer/Footer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* =============== ranger-styling ====================== */
+
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  /*  slider progress trick  */
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+/* Track: webkit browsers */
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+}
+
+/* Track: Mozilla Firefox */
+input[type="range"]::-moz-range-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: 2px;
+  z-index: 10;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #524c71;
+  /*  slider progress trick  */
+  box-shadow: -407px 0 0 400px #5235E8;
+}
+
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #f50;
+  /*  slider progress trick  */
+  box-shadow: -407px 0 0 400px #f50;
 }

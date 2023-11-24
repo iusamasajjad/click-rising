@@ -1,0 +1,15 @@
+.hero-img{
+    background-image: url('../hero-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.rounded-left{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.rounded-top{
+    border-radius: 10px 10px 0px 0px;
+}
