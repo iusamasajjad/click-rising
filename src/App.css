@@ -43,13 +43,24 @@ background: #EEEBFD;
 .font-bold{
   font-weight: bold;
 }
+.font-semibold{
+  font-weight:500;
+}
 
+.sidebar{
+  min-height: 100vh;
+}
 .box-shadow{
   box-shadow: 0px 12px 80px 0px rgba(82, 53, 232, 0.10);
 }
 .border-radius{
   border-radius: 36px;
   border: 2px solid #EFEDFD;
+}
+.input-border{
+  border-radius: 10px;
+
+background: #FFF;
 }
 .border-radius-sm{
   border-radius: 14px;
@@ -67,6 +78,13 @@ footer{
   background-position: center;
 }
 
+/* Asphalt-bg */
+.asphalt-bg{
+  background: url('./components/Asphalt/ashphalt.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /* =============== ranger-styling ====================== */
 
 input[type="range"] {
@@ -124,4 +142,28 @@ input[type="range"]::-moz-range-thumb {
   border: 1px solid #f50;
   /*  slider progress trick  */
   box-shadow: -407px 0 0 400px #f50;
+}
+
+/* media-queries */
+
+/* Small screens, laptops */
+@media (min-width: 320px) and (max-width: 480px) {
+  .text-lg{
+    font-size: 24px !important;
+  }
+  .text-sm-sm{
+    font-size: 12px !important;
+  }
+}
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+ 
+}
+/* Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+ 
+}
+/* Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+ 
 }

@@ -19,7 +19,7 @@ export const Faq = () => {
         <p className="text-blue m-0">FAQ’s</p>
         <p className="text-md font-bold">Frequently Asked Question’s</p>
         <div className="d-flex justify-content-center">
-          <p className="text-gray col-4 px-3">
+          <p className="text-gray col-lg-4 col-12 px-3">
             Explore most question about Click rising if something is not clear
             yet.
           </p>

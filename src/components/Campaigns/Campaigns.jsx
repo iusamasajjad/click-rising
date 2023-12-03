@@ -1,6 +1,6 @@
 export const Campaigns = () => {
   return (
-    <div className="d-flex justify-content-between my-5 col-10 gap-5 container mx-auto">
+    <div className="d-flex justify-content-center justify-content-lg-between my-5 flex-wrap col-10 gap-5 container mx-auto">
       <div className="text-center">
         <p className="text-lg m-0">5K+</p>
         <p className="text-gray">Active Users</p>

@@ -3,7 +3,7 @@ export const TrustedPlatform = () => {
   return (
     <div>
       <div className="text-center d-flex justify-content-center">
-        <div className="col-4 mt-5 pt-5">
+        <div className="col-lg-4 col-10 mt-5 pt-5">
           <p className="text-blue">Trusted Platforms</p>
           <h3 className="text-lg">
             Trusted by Top <span className="text-blue">Companies Sign up</span>

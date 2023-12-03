@@ -15,7 +15,7 @@ function SampleNextArrow(props) {
       style={{
         ...style,
         right: "90px",
-        top: "-80px",
+        top: "-45px",
         display: "block",
       }}
       onClick={onClick}
@@ -33,7 +33,7 @@ function SamplePrevArrow(props) {
       style={{
         ...style,
         right: "155px",
-        top: "-80px",
+        top: "-45px",
         left: "unset",
         display: "block",
       }}
@@ -48,6 +48,23 @@ export const ChooseUSCarousel = () => {
   const settings = {
     infinite: true,
     slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+    ],
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -56,7 +73,7 @@ export const ChooseUSCarousel = () => {
     <div>
       <div className="container mx-auto">
         <p className="text-blue m-0">WHY CHOOSE US?</p>
-        <p className="text-md font-bold">
+        <p className="text-md mb-5 mb-lg-3 font-bold">
           Influencers who <span className="text-blue">trusted</span> us.
         </p>
       </div>

@@ -9,18 +9,18 @@ import d12 from "./12.png"
 import d85 from "./85.png"
 export const EarningSteps = () => {
   return (
-    <div className="container col-10 mt-5">
+    <div className="container col-12 col-lg-10 mt-5">
       <div className="d-flex justify-content-between">
         <p className="text-dark-black text-lg">3 easy steps to start earning</p>
         <div>
-          <img src={arrow} alt="arrow" />
+          <img className="col-8" src={arrow} alt="arrow" />
         </div>
       </div>
-      <div className="d-flex justify-content-between align-items-center">
-        <div className="col-5">
+      <div className="d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center">
+        <div className="col-11 col-lg-5">
           <img className="col-12" src={gamesLink} alt="" />
         </div>
-        <div className="col-5 px-2">
+        <div className="col-11 col-lg-5 px-2">
           <p className="text-blue m-0">STEP 1</p>
           <p className="text-lg font-bold">
             {" "}
@@ -41,13 +41,13 @@ export const EarningSteps = () => {
         </div>
       </div>
       <div className="d-flex justify-content-center">
-        <div>
-          <img src={ArrowConnection} alt="arrow" />
+        <div className="col-8 col-lg-8">
+          <img className="col-12"  src={ArrowConnection} alt="arrow" />
         </div>
       </div>
-      <div className="d-flex justify-content-between align-items-center">
-        <div className="col-5 px-2">
-          <p className="text-blue m-0">STEP 1</p>
+      <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+        <div className="col-11 col-lg-5 px-2">
+          <p className="text-blue m-0">STEP 2</p>
           <p className="text-lg font-bold">
             {" "}
             Join a <span className="text-blue">Campaign</span> & Get your Link
@@ -65,21 +65,21 @@ export const EarningSteps = () => {
             Sign up now
           </button>
         </div>
-        <div className="col-5">
+        <div className="col-11 col-lg-5">
           <img className="col-12" src={instaLink} alt="instaLink" />
         </div>
       </div>
       <div className="d-flex justify-content-center">
-        <div>
-          <img src={ArrowConnection2} alt="arrow" />
+        <div className="col-8">
+          <img className="col-12" src={ArrowConnection2} alt="arrow" />
         </div>
       </div>
-      <div className="d-flex justify-content-between align-items-center">
-        <div className="col-5">
+      <div className="d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center">
+        <div className="col-11 col-lg-5">
           <img className="col-12" src={socialAnalysis} alt="social-analysis" />
         </div>
-        <div className="col-5 px-2">
-          <p className="text-blue m-0">STEP 1</p>
+        <div className="col-11 col-lg-5 px-2">
+          <p className="text-blue m-0">STEP 3</p>
           <p className="text-lg font-bold">
             Provide <span className="text-blue">App installs</span>✨ <br />&
             Get paid per install

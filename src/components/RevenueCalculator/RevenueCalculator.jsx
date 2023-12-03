@@ -8,7 +8,7 @@ export const RevenueCalculator = () => {
         <p className="text-gray">Calculate your average income</p>
       </div>
       <div className="d-flex justify-content-center my-4">
-        <div className="box-shadow col-6 border-radius px-4 py-3">
+        <div className="box-shadow col-lg-6 col-11 border-radius px-4 py-3">
           <div className="d-flex justify-content-between">
             <p className="text-gray">Number of followers</p>
             <p className="text-dark-black font-bold">5.3 M</p>

@@ -6,11 +6,11 @@ import instagram from "./instagram.png"
 import twitter from "./twitter.png"
 export const Main = () => {
   return (
-    <main className="hero-img mx-5 position-relative d-flex border-radius-sm justify-content-center text-center">
+    <main className="hero-img lg-mx-5 mx-0 position-relative d-flex border-radius-sm justify-content-center text-center">
       {/* get paid per install section */}
       <div
-        style={{ right: 0, top: 80 }}
-        className="text-black rounded-left rounded-left position-absolute col-2 px-3 bg-white"
+        // style={{ right: 0, top: 80 }}
+        className="text-black rounded-left rounded-left position-absolute col-lg-2 col-5 px-lg-3 px-1  bg-white right-0 top-80"
       >
         <div className=" text-start">
           <img width={170} src={graph} alt="graph" />
@@ -24,11 +24,11 @@ export const Main = () => {
       </div>
       {/* ============ power-slap-section ============ */}
       <div
-        style={{ left: 90, bottom: 70 }}
-        className="bg-white position-absolute py-2 rounded px-2"
+        // style={{ left: 90, bottom: 70 }}
+        className="bg-white position-absolute py-2 col-5 col-lg-3 rounded px-2 left-90 bottom-70"
       >
-        <div>
-          <img width={200} src={powerSlap} alt="power slap" />
+        <div className="col-12 col-lg-">
+          <img className="col-12" src={powerSlap} alt="power slap" />
         </div>
         <div>
           <p className="m-0 text-dark-black font-bold">Power Slap</p>
@@ -42,8 +42,8 @@ export const Main = () => {
       </div>
       {/* share link section */}
       <div
-        style={{ right: 148, bottom: 0 }}
-        className="bg-white text-start position-absolute py-4 col-4 rounded-top px-2"
+        style={{ bottom: 0 }}
+        className="bg-white right-148 text-start position-absolute py-4 col-lg-4  rounded-top px-2"
       >
         <div>
           <p className="m-0 text-dark-black font-bold">
@@ -65,31 +65,40 @@ export const Main = () => {
         </div>
       </div>
       {/* social-icons */}
-      <div style={{ right: 280, top: 30 }} className="position-absolute">
+     
+      <div
+        //  style={{ right: 280, top: 30 }}
+        className="position-absolute top-30 right-280"
+      >
         <img width={70} src={instagram} alt="instagram" />
       </div>
-      <div style={{ position: "absolute", left: 100, top: 100 }}>
+      <div 
+      style={{ position: "absolute !important"}}
+      
+      className="left-100 position-absolute top-100">
         <img width={70} src={facebook} alt="facebook" />
       </div>
-      <div style={{ position: "absolute", left: 150, top: 300 }}>
+     
+      <div  style={{ position: "absolute" }}
+        className="left-150 top-300">
         <img width={70} src={twitter} alt="twitter" />
       </div>
-      <div className="col-7 px-5 pt-5">
+      <div className=" col-lg-7 col-12  px-5 pt-lg-5 pt-6">
         <div className="pt-5">
-          <h1 className="text-white text-xl text-center">
+          <h1 className="text-white text-xl   text-center">
             Revenue generator <span className="text-blue">platform</span> for
             influencers 🚀
           </h1>
-          <p className="text-white text-md px-5 py-2">
+          <p className="text-white text-md px-lg-5 px-0 py-2">
             Share mobile applications on your social media and get paid for each
             installs by your followers
           </p>
         </div>
         <div className="d-flex gap-3 justify-content-center pt-5">
-          <button className="px-5 py-3 rounded-pill bg-blue text-white border-0">
+          <button className="px-lg-5 px-3 py-lg-3 py-2 rounded-pill bg-blue text-white border-0">
             Get Start Now
           </button>
-          <button className="px-5 py-3 rounded-pill bg-transparent border text-white">
+          <button className="px-lg-5 px-3 py-lg-3 py-2  rounded-pill bg-transparent border text-white">
             Explore more
           </button>
         </div>

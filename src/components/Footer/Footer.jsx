@@ -3,8 +3,8 @@ export const Footer = () => {
   return (
     <footer>
       <div className="container mx-auto">
-        <div className="d-flex justify-content-between py-5 col-12">
-          <div className="col-5">
+        <div className="d-flex flex-column flex-lg-row justify-content-lg-between align-items-center align-items-lg-start py-5 col-12">
+          <div className="col-lg-5 text-center text-lg-start">
             <div>
               <img src={logo} alt="click-rising-logo" />
             </div>
@@ -104,7 +104,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="mt-5" style={{height:'1px',background:'#231A51',width:'100%'}}></div>
-        <div className="text-white mt-5 d-flex justify-content-between">
+        <div className="text-white mt-5 d-flex flex-column-reverse flex-lg-row text-center text-lg-start justify-content-between">
             <div>
                 <p>© Clickrising by Liger Agency</p>
             </div>

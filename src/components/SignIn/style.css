@@ -1,0 +1,91 @@
+.signIn-bg{
+    background-image: url('./signin-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.account-bg{
+    background-image: url('./create-account.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.password-bg{
+    background-image: url('./update-passowrd.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.verify-bg{
+    background-image: url('./verify-identity.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.code-bg{
+    background-image: url('./verifycode.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.border-radius-2{
+    border-radius: 0px ;
+}
+/* media-queries */
+
+/* Small screens, laptops */
+@media (min-width: 320px) and (max-width: 480px) {
+    .signIn-bg{
+        min-height: fit-content !important;
+    }
+    .account-bg{
+        min-height: fit-content !important;
+    }
+    .code-bg{
+        min-height: fit-content !important;
+    }
+    .password-bg{
+        min-height: fit-content !important;
+    }
+    .verify-bg{
+        min-height: fit-content !important;
+    }
+    .border-radius-2{
+        border-radius: 10px !important;
+    }
+  }
+  /* iPads, Tablets */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .signIn-bg{
+        min-height: fit-content !important;
+    }
+    .account-bg{
+        min-height: fit-content !important;
+    }
+    .code-bg{
+        min-height: fit-content !important;
+    }
+    .password-bg{
+        min-height: fit-content !important;
+    }
+    .verify-bg{
+        min-height: fit-content !important;
+    }
+    .border-radius-2{
+        border-radius: 10px !important;
+    }
+  }
+  /* Small screens, laptops */
+  @media (min-width: 769px) and (max-width: 1024px) {
+   
+  }
+  /* Desktops, large screens */
+  @media (min-width: 1025px) and (max-width: 1200px) {
+   
+  }
+  

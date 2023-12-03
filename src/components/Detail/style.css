@@ -1,0 +1,10 @@
+.subway{
+    background-image: url('./subway.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+}
+.blur-bg{
+    backdrop-filter: blur(3.5px);
+}

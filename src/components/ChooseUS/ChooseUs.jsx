@@ -4,8 +4,8 @@ export const ChooseUs = () => {
   return (
     <div>
       <div className="container col-10 my-5">
-        <div className="d-flex justify-content-between align-items-center">
-          <div className="col-6">
+        <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+          <div className="col-lg-6 col-12">
             <p className="text-blue m-0">WHY CHOOSE US?</p>
             <p className="text-lg font-bold">
               Got your Revenue Higher 🏆 with your{" "}
@@ -45,7 +45,7 @@ export const ChooseUs = () => {
             Start Earning Now
             </button>
           </div>
-          <div className="col-5 rounded box-shadow border bg-white">
+          <div className="col-lg-5 col-12 mt-3 rounded box-shadow border bg-white">
             <div className="col-12 text-start">
               <div className="col-12">
                 <img className="col-12" src={graph} alt="graph" />

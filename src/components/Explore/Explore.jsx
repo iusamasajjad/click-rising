@@ -3,7 +3,7 @@ export const Explore = () => {
   return (
     <div>
       <div className="text-center d-flex justify-content-center">
-        <div className="col-4 mt-5 pt-5">
+        <div className="col-lg-4 col-xs-10 mt-5 pt-5">
           <p className="text-blue">How ClickRising Works</p>
           <h3 className="text-lg">
             Explore Click<span className="text-blue">Rising</span>
