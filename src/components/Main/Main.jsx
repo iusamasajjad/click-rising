@@ -9,8 +9,8 @@ export const Main = () => {
     <main className="hero-img lg-mx-5 mx-0 position-relative d-flex border-radius-sm justify-content-center text-center">
       {/* get paid per install section */}
       <div
-        // style={{ right: 0, top: 80 }}
-        className="text-black rounded-left rounded-left position-absolute col-lg-2 col-5 px-lg-3 px-1  bg-white right-0 top-80"
+        style={{ right: "10px" }}
+        className="text-black rounded-left rounded-left position-absolute col-lg-2 col-5 px-lg-3 px-2  bg-white top-80"
       >
         <div className=" text-start">
           <img width={170} src={graph} alt="graph" />
@@ -43,7 +43,7 @@ export const Main = () => {
       {/* share link section */}
       <div
         style={{ bottom: 0 }}
-        className="bg-white right-148 text-start position-absolute py-4 col-lg-4  rounded-top px-2"
+        className="bg-white right-148 text-start position-absolute py-4 col-lg-4  rounded-top px-3"
       >
         <div>
           <p className="m-0 text-dark-black font-bold">
@@ -60,7 +60,7 @@ export const Main = () => {
           <input
             className="text-dark-black bg-light-purple border-0 px-2 py-2 rounded col-12"
             type="text"
-            placeholder="https://clickrising.app/xxxxx/powerslap"
+            placeholder="https://clickrisingpowerslap"
           />
         </div>
       </div>
