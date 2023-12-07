@@ -13,7 +13,7 @@ export const Footer = () => {
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s.
             </p>
-            <div className="d-flex  gap-5">
+            <div className="d-flex justify-content-lg-start justify-content-center gap-5">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
