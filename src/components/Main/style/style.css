@@ -30,7 +30,7 @@
     .left-100{
         left: 26px !important;
     }
-    .top-100{
+    .top-101{
         top: 50px !important;
     }
 
@@ -79,7 +79,7 @@
     .left-100{
         left: 26px !important;
     }
-    .top-100{
+    .top-101{
         top: 50px !important;
     }
 
@@ -128,7 +128,7 @@
     .left-100{
         left: 26px !important;
     }
-    .top-100{
+    .top-101{
         top: 50px !important;
     }
 
@@ -184,8 +184,8 @@
 .left-100{
     left: 100px;
 }
-.top-100{
-    top: 100px !important;
+.top-101{
+    top: 100px;
 }
 .left-150{
     left: 150px;

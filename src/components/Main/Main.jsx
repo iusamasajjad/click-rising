@@ -75,7 +75,7 @@ export const Main = () => {
       <div 
       style={{ position: "absolute !important"}}
       
-      className="left-100 position-absolute top-100">
+      className="left-100 position-absolute top-101">
         <img width={70} src={facebook} alt="facebook" />
       </div>
      
